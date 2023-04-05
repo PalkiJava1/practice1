@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "react-router-dom": "^6.10.0",
+    "redux": "^4.2.1"
+  },
+  "dependencies": {
+    "react-bootstrap": "^2.7.2"
+  }
+}
