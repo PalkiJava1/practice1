@@ -1,7 +1,7 @@
 const INIT_STATE = {
     isChecked: false,
 };
-const checkreducer = (state = INIT_STATE, action) => {
+export const checkreducer = (state = INIT_STATE, action) => {
     switch (action.type) {
         case "IS_CHECKED":
             return {
@@ -13,4 +13,3 @@ const checkreducer = (state = INIT_STATE, action) => {
             return state
     }
 }
-export default checkreducer;

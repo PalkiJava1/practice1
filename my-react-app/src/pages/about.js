@@ -9,7 +9,7 @@ const About = () => {
   //     Please check the checkbox
   //   </label>
   // )
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(true);
   const dispatch = useDispatch();
   const handleChange = () => {
 

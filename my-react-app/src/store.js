@@ -1,8 +1,8 @@
 import { createStore } from 'redux'
-import checkreducer from './redux/reducers/Reducer';
+import rootred from './redux/reducers/main';
 
 const store = createStore(
-    checkreducer
+    rootred
 );
 
 export default store;
